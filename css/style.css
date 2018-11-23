@@ -1,0 +1,57 @@
+.roof{
+	width: 0;
+	height: 0;
+	border-left: 200px solid transparent;
+	border-right: 200px solid transparent;
+	border-bottom: 200px solid #4d0203;
+	position: absolute;
+	 
+}
+.floor1{
+	width: 400px;
+	height: 100px;
+	background: #937d62;
+	position: absolute;
+	top: 300px;
+}
+.floor2{
+	width: 400px;
+	height: 100px;
+	background: #584b3a;
+	position: absolute;
+	top: 200px;
+}
+.house{
+	position: fixed;
+	left: 500px;
+	top: 50px;
+
+}
+.win1{
+background:url(../img/plastikovoe-okno-v-zal.jpg) center top / cover ;
+z-index: 1;
+width:  150px;
+height: 75px;
+top: 10px;
+left: 200px;
+position: absolute;	
+}
+.win2{
+background:url(../img/plastikovoe-okno-v-zal.jpg) center top / cover ;
+z-index: 1;
+width:  150px;
+height: 75px;
+top: 10px;
+left: 50px;
+position: absolute;
+
+}
+.door{
+	width: 50px;
+	height: 75px;
+	background: #050505;
+	top: 25px;
+	position: absolute;
+	left: 25px;
+
+}
